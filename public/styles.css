@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'TV Patrol Gothic';
+    src: url('tv_patrol_gothic-webfont.eot');
+    src: url('tv_patrol_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tv_patrol_gothic-webfont.woff2') format('woff2'),
+         url('tv_patrol_gothic-webfont.woff') format('woff'),
+         url('tv_patrol_gothic-webfont.ttf') format('truetype'),
+         url('tv_patrol_gothic-webfont.svg#tv_patrol_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TV Patrol Gothic Numbers';
+    src: url('TVPatrolGothic.eot');
+    src: url('TVPatrolGothic.eot?#iefix') format('embedded-opentype'),
+        url('TVPatrolGothic.woff2') format('woff2'),
+        url('TVPatrolGothic.woff') format('woff'),
+        url('TVPatrolGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+30-39;
+}
+
+
+

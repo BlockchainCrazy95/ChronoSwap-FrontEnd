@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+	<title>question-mark-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.t0 { font-size: 150px;fill: #5c4a3b;font-weight: 700;font-family: "iAWriterDuospace-Bold", "iA Writer Duospace" } 
+	</style>
+	<text id="?
+" style="transform: matrix(1,0,0,1,55,156)" >
+		<tspan x="0" y="0" class="t0">?
+</tspan>
+	</text>
+</svg>

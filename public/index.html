@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Links -->
+    <!-- <link rel="preconnect" href="%REACT_APP_NODE_1%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_2%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_3%" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet" /> -->
+    <link href="%PUBLIC_URL%/styles.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1" />
+    <meta name="theme-color" content="#29334e" />
+    <title>ChronoSwap</title>
+    <meta name="description" content="Say Hello to DeFi exchange on Crypto.com Cronos Chain (CRO), enter the race !">
+    
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://chronoswap.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ChronoSwap">
+    <meta property="og:description" content="Say Hello to DeFi exchange on Crypto.com Cronos Chain (CRO), enter the race !">
+    <meta property="og:image" content="https://chronoswap.org/cover-chronoswap.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="chronoswap.org">
+    <meta property="twitter:url" content="https://chronoswap.org/">
+    <meta name="twitter:title" content="ChronoSwap">
+    <meta name="twitter:description" content="Say Hello to DeFi exchange on Crypto.com Cronos Chain (CRO), enter the race !">
+    <meta name="twitter:image" content="https://chronoswap.org/cover-chronoswap.jpg">
+    
+    <!-- Bundle and Base CSS -->
+    <link rel="stylesheet" href="css/vendor.bundle.css?ver=192">
+    <link rel="stylesheet" href="css/style-dark.css?ver=192" id="changeTheme">
+    <!-- Extra CSS -->
+    <link rel="stylesheet" href="css/theme.css?ver=192">
+    <!-- GTAG -->
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', '%REACT_APP_GTAG%')
+    </script>
+  </head>
+  <!-- <body style="overflow-x: hidden;"> -->
+    <body>
+    <!-- GTAG (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=%REACT_APP_GTAG%"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="portal-root"></div>
+    <!-- jquery -->
+    <script src="js/jquery.bundle.js"></script>
+  </body>
+</html>

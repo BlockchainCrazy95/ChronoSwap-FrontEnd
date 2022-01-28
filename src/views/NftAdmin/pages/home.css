@@ -1,0 +1,94 @@
+@-webkit-keyframes cloudwash {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); 
+    }
+    100% {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0); 
+    } 
+}
+
+@keyframes cloudwash {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+    } 
+}
+
+.gradient-text {
+    display: inline-block;
+      background-image: linear-gradient(135deg,#846ff4,#f17674);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+  .gradient-item {
+    border-radius: 10px;
+    background-color: #0a1026;
+    position: relative;
+    border: solid 1px #eb3fa9;
+    text-align: left;
+    padding: 10px;
+    margin: 0 0 30px;
+  }
+  /*
+  .gradient-item:before{
+    content: "";
+    position: absolute;
+    width: 102.6%;
+    height: 101.3%;
+    top: -3px;
+    left: -3px;
+    border-radius: 15px;
+    z-index: -1;
+    background-image: linear-gradient(130deg, #eb3fa9 0%, #395ff6 50%, #eb3fa9 100%);
+  }*/
+  
+  .MuiPagination-root > ul > li > button {
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .MuiPagination-root > ul > li > div {
+    color: white;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  @keyframes twinkle {
+    0% {
+      transform: scale(1, 1);
+      /*background: rgba(255,255,255,0.0);*/
+      opacity: 0;
+      animation-timing-function: ease-in;
+    }
+    60% {
+      transform: scale(0.8, 0.8);
+      /*background: rgba(255,255,255,1);*/
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    80% {
+      /*background: rgba(255,255,255,0.00);*/
+      opacity: 0.8;
+      transform: scale(1, 1);
+    }
+    100% {
+      /*background: rgba(255,255,255,0.0);*/
+      opacity: 0;
+      transform: scale(1, 1);
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }

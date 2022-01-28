@@ -1,0 +1,18 @@
+/*    /index.html   200
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://cronoswap.org/* https://chronoswap.org/:splat 301!
+https://www.cronoswap.org/* https://chronoswap.org/:splat 301!
+
+https://chronoswap.exchange/* https://chronoswap.org/:splat 301!
+https://www.chronoswap.exchange/* https://chronoswap.org/:splat 301!
+
+https://cronoswap.finance/* https://chronoswap.org/:splat 301!
+https://www.cronoswap.finance/* https://chronoswap.org/:splat 301!
+
+https://cronoswap.exchange/* https://chronoswap.org/:splat 301!
+https://www.cronoswap.exchange/* https://chronoswap.org/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://chronoswap.netlify.app/* https://chronoswap.org/:splat 301!

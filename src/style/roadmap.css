@@ -1,0 +1,84 @@
+.container {
+    padding: "0 100px";
+}
+*{
+    font-family: "TV Patrol Gothic Numbers", "TV Patrol Gothic", sans-serif;
+}
+h4{
+    margin-bottom: 0!important;
+}
+p{
+    margin-bottom: 0!important;
+    font-size: 12px;
+}
+.circle-l {
+    width: 70px;
+    height: 70px;
+    background: #280d5f;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: -36px;
+    animation: jump 3s infinite;
+    font-family: "TV Patrol Gothic Numbers", "TV Patrol Gothic", sans-serif;
+}
+
+.circle-r {
+    width: 70px;
+    height: 70px;
+    background: #280d5f;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    right: -36px;
+    animation: jump 3s infinite;
+    flex-direction: column;
+   
+}
+
+
+li {
+    color: #280d5f;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+
+.f-div {
+    border-bottom: 3px solid #280d5f;
+    border-left: 3px solid #280d5f;
+    position: relative;
+   
+    border-bottom-left-radius: 10px;
+}
+
+.s-div {
+    border-bottom: 3px solid #280d5f;
+    border-right: 3px solid #280d5f;
+    position: relative;
+    border-bottom-right-radius: 10px;
+   
+}
+
+@keyframes jump {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
